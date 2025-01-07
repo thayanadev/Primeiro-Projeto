@@ -10,41 +10,137 @@ header {
     font-family: "Lato", serif;
     font-weight: 700;
     font-style: bold;
+    padding: 12px 0;
 }
 
-h2,h3 {
+
+h2,h3,h4 {
     font-family: "Lato", serif;
     font-weight: 700;
     font-style: bold;
+    font-weight: bold;
     color: red;
-  }
+    padding: 8px 0;
+}
 
+.contact-methods {
+        flex-direction:row;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input,textarea {
+    font-family: "Lato", serif;
+    font-style: italic;
+}
 
 .container {
     max-width: 1028px;
     width: 100%;
     margin: 0 auto;
+    align-items: center;
 }
 
-header .container,
-section .container {
+header .container{
     display: flex;
-    align-items: start; 
+    align-items: center;
     justify-content: space-between;
 }
 
 .social-links img {
-    height: 35px;
-    display: baseline;
+    height: 24px;
+    display: inline;
 }
 
+.social-links li a {
+    text-decoration: none;
+}
+
+#nossahistoria2.0 img {
+    height: 700px;
+    justify-content: center;
+}
+
+#entreemcontato img {
+    width: 700px;
+    height: 400px;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+
+.social-links li { 
+    display: inline;
+    margin: 8px;
+}
 .container nav li {
     display:inline-block ;
     margin-left: 32px;
     font-size: 16px;
 }
 
-div nav ul li {
+div nav li a {
     text-decoration: none;
     color: #ffffff;
+    justify-content:center;
 }
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section h3 {
+    margin-bottom: 14px;
+}
+
+section h4 {
+    margin-top: 32px;
+}
+
+section p {
+    margin-bottom: 8px;
+
+}
+
+form input,
+textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: ridge;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color:red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(99, 21, 21);;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(216, 59, 59);
+}
+
+footer {
+    background-color: red;
+    color: #fff;
+    padding: 10px 0;
+}
+
