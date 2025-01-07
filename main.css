@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    color: #ffffff;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+h2,h3 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: bold;
+    color: red;
+  }
+
+
+.container {
+    max-width: 1028px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: start; 
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 35px;
+    display: baseline;
+}
+
+.container nav li {
+    display:inline-block ;
+    margin-left: 32px;
+    font-size: 16px;
+}
+
+div nav ul li {
+    text-decoration: none;
+    color: #ffffff;
+}
