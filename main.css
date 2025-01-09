@@ -70,6 +70,7 @@ header .container{
     display: inline;
     margin: 8px;
 }
+
 .container nav li {
     display:inline-block ;
     margin-left: 32px;
@@ -100,7 +101,6 @@ section h4 {
 
 section p {
     margin-bottom: 8px;
-
 }
 
 form input,
