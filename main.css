@@ -50,7 +50,7 @@ header .container{
 }
 
 .social-links img {
-    height: 24px;
+    height: 32px;
     display: inline;
 }
 
@@ -63,24 +63,33 @@ header .container{
     height: 400px;
     justify-content: center;
     object-fit: cover;
-    
 }
 
 .social-links li { 
-    display: inline;
-    margin: 8px;
+    display:inline-flex;
+    margin: 16px;
+}
+
+#article .block {
+    display: flex;
+    align-items: baseline;
+    margin-left: 160px; 
+}
+
+#endereco {
+    margin: 30px;
 }
 
 .container nav li {
     display:inline-block ;
-    margin-left: 32px;
+    margin-left: auto;
     font-size: 16px;
+    justify-content: space-between;
 }
 
 div nav li a {
     text-decoration: none;
     color: #ffffff;
-    justify-content:center;
 }
 
 section {
@@ -109,6 +118,7 @@ form button {
     display: block;
     width: 320px;
     margin-bottom: 8px;
+    margin-right: 110px;
     padding: 8px;
     border-radius: ridge;
 }
